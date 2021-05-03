@@ -21,21 +21,18 @@
       <input type="checkbox" id="menuToggle">
       <label for="menuToggle" class="menu-icon"><i class="fa fa-bars"></i></label>
       <ul>
-        <a href="./index.html">
-          <li>Home</li>
-        </a>
-        <a href="./ViewAdvertisements.html">
-          <li>View Advertisements</li>
-        </a>
-        <a href="./AddAdvertisement.html">
-          <li>Add Advertisements</li>
-        </a>
-        <a href="./index.html">
-          <li>Login</li>
-        </a>
-        <a href="./index.html">
-          <li>Register</li>
-        </a>
+      <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./ad_information.php">
+                    <li>View Advertisements</li>
+                </a>
+                <a href="./new_advertisement.php">
+                    <li>Add Advertisements</li>
+                </a>
+                <a href="./logout.php">
+                    <li>Log Out</li>
+                </a>
       </ul>
     </nav>
   </header>

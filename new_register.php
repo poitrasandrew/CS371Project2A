@@ -67,8 +67,8 @@ if($firstname != '' && $lastname != '' && $email != ''  && $pass != '' && match_
 }
 
 ?>
-<p class="link"><a href="index.html">Return to Homepage!</a></p>
-<p class="link"><a href="register.html">Return to register!</a></p>
+<p class="link"><a href="access_login.php">Return to Login!</a></p>
+<p class="link"><a href="register.php">Return to Register!</a></p>
 
 
 </body>

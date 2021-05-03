@@ -19,7 +19,7 @@
 </h2> Login Successful! </h2>
 <p class="link"><a href="homepage.php">Click here to go to Homepage!</a></p>
 <p class="link"><a href="ad_information.php">Click here to see what we have!</a></p>
-<p class="link"><a href="add_advertisement.html">Click here to post your stuff!</a></p>
+<p class="link"><a href="new_advertisement.php">Click here to post your stuff!</a></p>
 
 </body>
 

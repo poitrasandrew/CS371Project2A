@@ -29,7 +29,7 @@ include 'show_advertisement.php';
             <input type="checkbox" id="menuToggle">
             <label for="menuToggle" class="menu-icon"><i class="fa fa-bars"></i></label>
             <ul>
-                <a href="./index.html">
+                <a href="./homepage.php">
                     <li>Home</li>
                 </a>
                 <a href="./ad_information.php">
@@ -38,12 +38,10 @@ include 'show_advertisement.php';
                 <a href="./new_advertisement.php">
                     <li>Add Advertisements</li>
                 </a>
-                <a href="./access_login.php">
-                    <li>Login</li>
+                <a href="./logout.php">
+                    <li>Log Out</li>
                 </a>
-                <a href="./register.php">
-                    <li>Register</li>
-                </a>
+                
             </ul>
         </nav>
     </header>

@@ -22,15 +22,7 @@
             <input type="checkbox" id="menuToggle">
             <label for="menuToggle" class="menu-icon"><i class="fa fa-bars"></i></label>
             <ul>
-                <a href="./index.html">
-                    <li>Home</li>
-                </a>
-                <a href="./ad_information.php">
-                    <li>View Advertisements</li>
-                </a>
-                <a href="./new_advertisement.php">
-                    <li>Add Advertisements</li>
-                </a>
+               
                 <a href="./access_login.php">
                     <li>Login</li>
                 </a>
