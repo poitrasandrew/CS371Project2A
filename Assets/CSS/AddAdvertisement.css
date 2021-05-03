@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(15, 78, 156);
+  background: linear-gradient(
+    90deg,
+    rgba(15, 78, 156, 1) 30%,
+    rgba(4, 125, 203, 1) 70%
+  );
+  font-family: montserrat;
+}
+
+.add-advertisement-form {
+  width: 50%;
+  margin: 30px auto;
+  color: white;
+  margin-top: 30px;
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+.add-advertisement-form .heading {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.781);
+}
+
+.add-advertisement-form .fields-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 35px 0px;
+}
+
+.add-advertisement-form .label-container {
+  width: 20%;
+}
+
+.add-advertisement-form .field-container {
+  width: 60%;
+}
+
+.add-advertisement-form label {
+  font-weight: 700;
+}
+
+.add-advertisement-form input[type="date"] {
+  width: 100%;
+  font-size: 16px;
+  padding: 6px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  color: rgba(255, 255, 255, 0.781);
+  text-align: center;
+  transition: all 0.4s;
+  outline-color: white;
+}
+
+.add-advertisement-form input[type="text"],
+.add-advertisement-form input[type="number"] {
+  width: 80%;
+  font-size: 16px;
+  padding: 6px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+  color: white;
+  text-align: center;
+  transition: all 0.4s;
+}
+.add-advertisement-form input[type="text"]:focus,
+.add-advertisement-form input[type="text"]:hover,
+.add-advertisement-form input[type="number"]:focus,
+.add-advertisement-form input[type="number"]:hover,
+.add-advertisement-form textarea:focus,
+.add-advertisement-form textarea:hover {
+  width: 90%;
+}
+
+.add-advertisement-form textarea {
+  width: 80%;
+  font-size: 16px;
+  padding: 6px;
+  outline: none;
+  color: white;
+  background: none;
+  border: 1px solid white;
+  transition: all 0.4s;
+  height: 60px;
+}
+
+.submit-button {
+  width: 80%;
+  padding: 10px 6px;
+  color: white;
+  background: none;
+  border: 1px solid white;
+  border-radius: 3px;
+  font-weight: 700;
+  transition: all 0.4s;
+}
+.submit-button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgba(4, 125, 203, 1);
+}
+.background-white {
+  background: white;
+}
+
+.text-primary {
+  color: rgba(4, 125, 203, 1);
+}
+.clear-both {
+  clear: both !important;
+}
+
+@media (max-width: 776px) {
+  .add-advertisement-form {
+    width: 90%;
+    color: white;
+  }
+
+  .add-advertisement-form .label-container {
+    width: 80%;
+  }
+
+  .add-advertisement-form .field-container {
+    width: 80%;
+  }
+}
